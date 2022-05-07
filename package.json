@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/letuan279/TranDuong_demo_backend#readme",
   "dependencies": {
+    "nodemon": "^2.0.16",
     "tedious": "^14.5.0"
   }
 }
